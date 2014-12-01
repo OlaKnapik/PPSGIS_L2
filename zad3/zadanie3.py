@@ -3,14 +3,14 @@
 class liczba_zespolona:
     
     def get_rzeczywista(self):
-        return self.__rzeczywsita
-    def set_rzeczywista(self):
-        return self.__rzeczywsita
+        return self.rzeczywsita
+    def set_rzeczywista(self, rzeczywista ):
+        self.rzeczywsita = rzeczywista
    
     def get_urojona(self):
-        return self.__urojona
-    def set_urojona(self):
-        return self.__urojona
+        return self.urojona
+    def set_urojona(self, urojona):
+        self.__urojona = urojona
    
     def __init__(self, rzeczywista, urojona):
         self.rzeczywista=rzeczywista
